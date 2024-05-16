@@ -31,7 +31,7 @@ function greetings($nama){
 // Hapus komentar untuk menjalankan code!
 greetings("Bagas");
 greetings("Wahyu");
-greetings("nama peserta");
+greetings("Willyam Leonard");
 
 echo "<br>";
 
