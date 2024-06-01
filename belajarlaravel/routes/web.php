@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 use App\Http\Controllers\AuthController;
 use PhpParser\Node\Stmt\Return_;
+use App\Http\Controllers\CastController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,3 +31,6 @@ Route::get('/data-table', function(){
 Route::get('/table', function(){
     return view('page.table') ;
 });
+
+Route::resource('cast',CastController::class);
+    
